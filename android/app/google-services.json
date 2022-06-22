@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "219158396421",
+    "project_id": "postdemo-a3da8",
+    "storage_bucket": "postdemo-a3da8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:219158396421:android:054dc4019e52c42711a66c",
+        "android_client_info": {
+          "package_name": "com.example.flutter_keiziban_test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "219158396421-v9bajqa38jtir0k9sa3nroh179ukjl0d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeZd6b1yvsBLGmAB4U5rQuzci4OuYzcps"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "219158396421-v9bajqa38jtir0k9sa3nroh179ukjl0d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
