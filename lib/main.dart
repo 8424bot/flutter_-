@@ -38,7 +38,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Text('掲示板デモ'),
+        title: Text('デモ'),
         actions: [
           IconButton(
             onPressed: () {
