@@ -15,7 +15,7 @@ class _PostPageState extends State<PostPage> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Text('投稿画面'),
+        title: Text('投稿'),
       ),
       body: Center(
         child: TextField(
@@ -40,7 +40,11 @@ class _PostPageState extends State<PostPage> {
 
 _onSubmitted(String content) {
   CollectionReference posts = FirebaseFirestore.instance.collection('posts');
-  posts.add({"content": content});
+  posts.add({
+    //"subject": "ディジタル電子回路",
+    "content": content
+    //"date": new DateTime.now()
+  });
 
   //_textEditingController.clear();
 }
